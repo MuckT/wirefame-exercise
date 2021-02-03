@@ -1,0 +1,145 @@
+/* Entire Document*/
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: white;
+  line-height: unset;
+  display: grid;
+  grid-template-rows: 100px auto 140px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Header */
+header {
+  background-color: black;
+  height: 100px;
+  grid-area: header;
+  color: white;
+}
+
+header ul {
+  display: grid;
+  grid-template-columns: repeat(5, 192px);
+  justify-items: center;
+  align-items: center;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #aaa
+}
+
+header nav {
+  width: 960px;
+  margin: auto;
+}
+
+header img {
+  margin-left: 8px;
+}
+
+/* Main */
+main {
+  grid-area: main;
+  overflow: auto;
+  width: 960px;
+  margin:auto;
+  height: 100%;
+}
+
+main img {
+  margin-top: 30px; 
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 30px;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 30px;
+}
+
+main section > div {
+  margin-top: 30px;
+}
+
+main h2 {
+  font-size: 20px;
+  text-emphasis: bold;
+}
+
+main .scrollable-container {
+  margin-top: 15px;
+  height: 300px;
+  overflow: auto;
+}
+
+main .scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+main .scrollable-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+main button {
+  margin-top: 30px;
+  height: 30px;
+  min-width: 60%;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+main button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+/* Footer */
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-decoration: none;
+  color: #aaa
+}
+footer {
+  margin-top: 30px;
+  grid-area: footer;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: center;
+  background-color: black;
+}
+
+footer a {
+  justify-items: center;
+  align-items: center;
+}
