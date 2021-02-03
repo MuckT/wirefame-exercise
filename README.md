@@ -15,7 +15,7 @@
 
 #### LAB - 08 Reflections
 
-* Overall the project went well I followed along in class and then recreated the same layout using CSS Gid. I also had some issues with the links to the sample images so I included them in the project itself.
+* Overall the project went well I followed along in class and then recreated the same layout using CSS Grid. I also had some issues with the links to the sample images so I included them in the project itself.
 
 * How do I get the footer to stick to the bottom of the page in mobile using CSS Grid?
 
