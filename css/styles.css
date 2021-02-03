@@ -118,12 +118,10 @@ main button {
 
 main button:hover {
   opacity: .5;
-  cursor: crosshair;
+  cursor: pointer;
 }
 
-
 /* Footer */
-
 footer a {
   display: flex;
   justify-content: center;
