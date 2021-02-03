@@ -3,11 +3,16 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  min-height: 100%;
   background-color: white;
   line-height: unset;
   display: grid;
-  grid-template-rows: 100px auto 140px;
+  grid-template-rows: 100px 1fr 140px;
   grid-template-columns: 1fr;
   grid-template-areas: 
     'header'
